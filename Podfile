@@ -11,8 +11,7 @@ target 'XapoTest' do
   pod 'Moya'
   pod 'XCoordinator'
   pod 'Swinject'
-  pod 'SwinjectStoryboard'
-  pod 'Nimble'
+  pod 'SwinjectStoryboard', :git => "https://github.com/Swinject/SwinjectStoryboard" , :branch => 'master'  pod 'Nimble'
   pod 'Quick'
   pod 'Moya'
 
