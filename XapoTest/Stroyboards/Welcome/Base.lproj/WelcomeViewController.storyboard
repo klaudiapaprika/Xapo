@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Fabriga-Bold.ttf">
+            <string>Fabriga-Bold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Welcome View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="WelcomeViewController" id="BYZ-38-t0r" customClass="WelcomeViewController" customModule="XapoTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Go to Xapo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T9V-0b-euP">
+                                <rect key="frame" x="304" y="59" width="94" height="19"/>
+                                <fontDescription key="fontDescription" name="Fabriga-Bold" family="Fabriga" pointSize="16"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LNG-tC-OHN">
+                                <rect key="frame" x="48" y="288.5" width="318" height="329"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="329" id="1CW-Mx-m12"/>
+                                    <constraint firstAttribute="width" constant="318" id="X9T-TH-Wiz"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Privacy policy and Terms of use" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xmV-y2-bYM">
+                                <rect key="frame" x="43" y="830" width="328.5" height="16"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="320" id="BSw-hX-nXj"/>
+                                    <constraint firstAttribute="height" constant="16" id="jiO-Iy-aVh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="17.600000000000001"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Yn-l5-4L1">
+                                <rect key="frame" x="67" y="752" width="280" height="48"/>
+                                <color key="backgroundColor" name=" Xapo Soft Red"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="48" id="C74-rv-XBW"/>
+                                    <constraint firstAttribute="height" constant="48" id="rxY-hk-f7r"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="280" id="zFi-0F-mje"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Fabriga-Bold" family="Fabriga" pointSize="16"/>
+                                <state key="normal" title="Enter the app">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" name="Shades Xapo blue"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="T9V-0b-euP" firstAttribute="leading" relation="lessThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="304" id="3UT-zG-Npn"/>
+                            <constraint firstItem="xmV-y2-bYM" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="J3r-AG-dDg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="xmV-y2-bYM" secondAttribute="bottom" constant="16" id="PQ3-b5-qIG"/>
+                            <constraint firstItem="2Yn-l5-4L1" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="eYM-vB-fHI"/>
+                            <constraint firstItem="LNG-tC-OHN" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="fYx-SE-E1U"/>
+                            <constraint firstItem="LNG-tC-OHN" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="fd2-It-WwQ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="2Yn-l5-4L1" secondAttribute="bottom" constant="62" id="pdk-r9-sK0"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="T9V-0b-euP" secondAttribute="trailing" constant="16" id="tph-4Y-vxZ"/>
+                            <constraint firstItem="T9V-0b-euP" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="15" id="ts8-Ge-M8K"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="goTo" destination="T9V-0b-euP" id="gsp-h4-NRa"/>
+                        <outlet property="termsLabel" destination="xmV-y2-bYM" id="vdS-oK-4yD"/>
+                        <outlet property="welcomeContentContainer" destination="LNG-tC-OHN" id="dxS-xu-cRz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="93.75"/>
+        </scene>
+    </scenes>
+    <resources>
+        <namedColor name=" Xapo Soft Red">
+            <color red="0.98799997568130493" green="0.3919999897480011" blue="0.29399999976158142" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Shades Xapo blue">
+            <color red="0.30196078431372547" green="0.32156862745098042" blue="0.36470588235294116" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+    </resources>
+</document>

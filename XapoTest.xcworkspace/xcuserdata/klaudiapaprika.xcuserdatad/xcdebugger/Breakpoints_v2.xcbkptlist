@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "58DB1BB2-8B31-443A-BA77-B0BA8CF1E918"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
+         <BreakpointContent
+            uuid = "8B4DB9BA-8782-4B1C-9476-64D8346279A3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            breakpointStackSelectionBehavior = "1"
+            scope = "1"
+            stopOnStyle = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.SwiftErrorBreakpoint">
+         <BreakpointContent
+            uuid = "F8456D91-21AB-41F2-9834-51AF6D1EC4E6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "96808AB9-A4E5-4FF8-A701-426555C597F8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "XapoTest/Strroyboards/Welcome/LoginCoordinator.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "prepareTransition(for:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "803AE232-0967-4BB6-83F1-A9BA6FCD8B20"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "XapoTest/Strroyboards/Welcome/LoginCoordinator.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "init(container:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "437EE5AD-B6D7-464B-B5EF-D753D29AFAEC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "XapoTest/Helpers/Extension+Swinject.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "resolveViewController(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "26E1D1CA-A73A-4E14-AD3A-ADCCAC872BFC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "XapoTest/Helpers/StoryBoardLodable.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "storyboardName"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B4BD4F53-D9E0-486D-A51A-08C770D9A761"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "XapoTest/Controllers/Reusable Components/Buttom/RoundedButton.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "layoutSubviews()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D38995C5-609F-4DFF-A6E9-99A705CC082E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "XapoTest/Controllers/Welcome/WelcomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "prepareView()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4BC7A318-8248-4A0E-98C9-250F3E7EEC33"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "XapoTest/Models/Welcome/WelcomeViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "fetchWelcome(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4BC7A318-8248-4A0E-98C9-250F3E7EEC33 - 2e8fbcf89deae947"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "XapoTest.WelcomeViewModel.fetchWelcome((Swift.Optional&lt;XapoTest.WelcomeModel&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "XapoTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/klaudiapaprika/Projects/XapoTest/XapoTest/Models/Welcome/WelcomeViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "37">
+               </Location>
+               <Location
+                  uuid = "4BC7A318-8248-4A0E-98C9-250F3E7EEC33 - dbf7e80b60c47838"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;XapoTest.WelcomeModel, Swift.Error&gt;) -&gt; () in XapoTest.WelcomeViewModel.fetchWelcome((Swift.Optional&lt;XapoTest.WelcomeModel&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "XapoTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/klaudiapaprika/Projects/XapoTest/XapoTest/Models/Welcome/WelcomeViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "162">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0DD9CD9F-7FEE-47DE-BA10-80570085C56D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "XapoTest/Models/Welcome/WelcomeViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "fetchWelcome(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0DD9CD9F-7FEE-47DE-BA10-80570085C56D - dbf7e80b60c47838"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;XapoTest.WelcomeModel, Swift.Error&gt;) -&gt; () in XapoTest.WelcomeViewModel.fetchWelcome((Swift.Optional&lt;XapoTest.WelcomeModel&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "XapoTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/klaudiapaprika/Projects/XapoTest/XapoTest/Models/Welcome/WelcomeViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "162">
+               </Location>
+               <Location
+                  uuid = "0DD9CD9F-7FEE-47DE-BA10-80570085C56D - dbf7e80b60c47838"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;XapoTest.WelcomeModel, Swift.Error&gt;) -&gt; () in XapoTest.WelcomeViewModel.fetchWelcome((Swift.Optional&lt;XapoTest.WelcomeModel&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "XapoTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/klaudiapaprika/Projects/XapoTest/XapoTest/Models/Welcome/WelcomeViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "190">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "06584FD5-5854-4E03-A061-ED3ABD0C6917"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "XapoTest/Models/Welcome/WelcomeViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "fetchWelcome(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9B30BE14-356C-4FCE-BBBE-C5C0DDAF31D5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "XapoTest/Managers/NetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "fetchDataFromAPIService(_:type:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9B30BE14-356C-4FCE-BBBE-C5C0DDAF31D5 - 754da81c2ea36ee"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 (Swift.Result&lt;Moya.Response, Moya.MoyaError&gt;) -&gt; () in XapoTest.NetworkManager.fetchDataFromAPIService&lt;A where A: Swift.Decodable, A: Swift.Encodable&gt;(_: Moya.TargetType, type: A.Type, completion: (Swift.Result&lt;A, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "XapoTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/klaudiapaprika/Projects/XapoTest/XapoTest/Managers/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "1279">
+               </Location>
+               <Location
+                  uuid = "9B30BE14-356C-4FCE-BBBE-C5C0DDAF31D5 - 754da81c2ea36ee"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 (Swift.Result&lt;Moya.Response, Moya.MoyaError&gt;) -&gt; () in XapoTest.NetworkManager.fetchDataFromAPIService&lt;A where A: Swift.Decodable, A: Swift.Encodable&gt;(_: Moya.TargetType, type: A.Type, completion: (Swift.Result&lt;A, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "XapoTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/klaudiapaprika/Projects/XapoTest/XapoTest/Managers/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "1781">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "596AA9FB-E570-46AA-A165-3BC157B7B5F1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "XapoTest/Managers/NetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "fetchDataFromAPIService(_:type:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

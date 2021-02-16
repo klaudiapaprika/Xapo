@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Fabriga.ttf">
+            <string>Fabriga</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Welcome Conent View Controller-->
+        <scene sceneID="7hg-mG-hbK">
+            <objects>
+                <viewController storyboardIdentifier="WelcomeConentViewController" id="jfd-aZ-HGV" customClass="WelcomeConentViewController" customModule="XapoTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Yyf-dY-Xpt">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="EyD-94-dMP">
+                                <rect key="frame" x="168" y="44" width="78.5" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="78.5" id="8Ax-3w-XHb"/>
+                                    <constraint firstAttribute="height" constant="100" id="ZT7-wd-gIK"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to iOS Test" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ogP-1P-TLX">
+                                <rect key="frame" x="21.5" y="160" width="371" height="80"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Fabriga" family="Fabriga" pointSize="40"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" scrollEnabled="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="wg7-aJ-4j2">
+                                <rect key="frame" x="0.0" y="240" width="414" height="622"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" notEnabled="YES"/>
+                                </accessibility>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="622" id="MMI-9e-rEP"/>
+                                </constraints>
+                                <string key="text">
+iOS Test for Xapo bank
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.
+</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Fabriga" family="Fabriga" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="BRN-sA-bHf"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="BRN-sA-bHf" firstAttribute="trailing" secondItem="wg7-aJ-4j2" secondAttribute="trailing" id="EtS-C4-sz5"/>
+                            <constraint firstItem="BRN-sA-bHf" firstAttribute="trailing" secondItem="ogP-1P-TLX" secondAttribute="trailing" constant="21.5" id="OV8-jR-vfo"/>
+                            <constraint firstItem="EyD-94-dMP" firstAttribute="top" secondItem="BRN-sA-bHf" secondAttribute="top" id="XHn-zw-UjY"/>
+                            <constraint firstItem="wg7-aJ-4j2" firstAttribute="leading" secondItem="BRN-sA-bHf" secondAttribute="leading" id="Zw7-xb-01f"/>
+                            <constraint firstItem="BRN-sA-bHf" firstAttribute="bottom" secondItem="wg7-aJ-4j2" secondAttribute="bottom" id="e90-l3-po3"/>
+                            <constraint firstItem="EyD-94-dMP" firstAttribute="centerX" secondItem="BRN-sA-bHf" secondAttribute="centerX" id="hCp-OJ-0KT"/>
+                            <constraint firstItem="wg7-aJ-4j2" firstAttribute="centerX" secondItem="BRN-sA-bHf" secondAttribute="centerX" id="jCt-Oo-Coi"/>
+                            <constraint firstItem="ogP-1P-TLX" firstAttribute="centerX" secondItem="BRN-sA-bHf" secondAttribute="centerX" id="q41-pv-nRw"/>
+                            <constraint firstItem="ogP-1P-TLX" firstAttribute="top" secondItem="EyD-94-dMP" secondAttribute="bottom" constant="16" id="tOT-iQ-lRF"/>
+                            <constraint firstItem="ogP-1P-TLX" firstAttribute="leading" secondItem="BRN-sA-bHf" secondAttribute="leading" constant="21.5" id="uhT-da-otZ"/>
+                            <constraint firstItem="wg7-aJ-4j2" firstAttribute="top" secondItem="ogP-1P-TLX" secondAttribute="bottom" id="z9V-Kk-Zgm"/>
+                        </constraints>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Q23-Vu-7TO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="27.536231884057973" y="73.660714285714278"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="logo" width="100" height="100"/>
+    </resources>
+</document>

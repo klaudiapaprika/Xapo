@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  XapoTest
+
+  Created by Klaudia Paprika on 2021. 02. 14..
+  
+*/
+"welcomeTitle" = "Welcome to iOS Test";
+"welcome description" = "iOS Test for X";
+"enterTheApp" = "Enter the app";
+"goToXapo" = "Go to Xapo";
+"termsAndPolicy" = "Privacy policy and Terms of use";
