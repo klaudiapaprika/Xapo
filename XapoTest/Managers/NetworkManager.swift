@@ -9,18 +9,18 @@ import Foundation
 import Moya
 
 protocol NetworkManagerProtocol {
-    func fetchDataFromAPIService<T:Codable>(_ target:TargetType, type: T.Type, completion: @escaping (Result<T, Error>)->())
+    func fetchDataFromAPIService<T:Codable>(_ target:TargetType, type: T.Type, completion: @escaping (Result<T, Error>)->Void)
 }
 
 class NetworkManager: NetworkManagerProtocol {
-    
+
     static let shared = NetworkManager()
-    
-    func fetchDataFromAPIService<T:Codable>(_ target:TargetType, type: T.Type, completion: @escaping (Result<T, Error>)->()) {
+
+    func fetchDataFromAPIService<T:Codable>(_ target:TargetType, type: T.Type, completion: @escaping (Result<T, Error>)->Void) {
         let provider = MoyaProvider<MultiTarget>()
         let simpleStubProvider = MoyaProvider<APIService>(stubClosure: MoyaProvider.delayedStub(1.0))
-        
-        //TODO: - macro for DEBUG flag
+
+        // TODO: - macro for DEBUG flag
         simpleStubProvider.request(.welcome) { result in
             DispatchQueue.main.async {
                 switch result {
@@ -39,7 +39,7 @@ class NetworkManager: NetworkManagerProtocol {
                 }
             }
         }
-        //TODO: -macro for else when backend integrated
+        // TODO: -macro for else when backend integrated
         //        provider.request(MultiTarget(target)) { result in
         //            DispatchQueue.main.async {
         //                switch result {

@@ -24,7 +24,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         }
         rootCoordinator = LoginCoordinator()
         rootCoordinator?.strongRouter.setRoot(for: window!)
-        
+
         rootCoordinator?.rootViewController.navigationController?.isNavigationBarHidden = true
     }
 }

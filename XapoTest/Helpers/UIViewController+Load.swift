@@ -28,7 +28,7 @@ extension UIViewController: Instantiable {
         }
         return instantiateFromStoryboard(self)
     }
-    
+
     static func loadInitialControllerFromDesignatedStoryboard() -> UIViewController {
         func instantiateFromStoryboard<T: UIViewController>(_ viewType: T.Type) -> T {
 

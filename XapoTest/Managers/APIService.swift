@@ -30,7 +30,7 @@ extension APIService: TargetType, ServiceType {
             return URL(string:NetworkEnvironment.current.apiBaseUrl)!
         }
     }
-    
+
     var path: String {
         switch self {
         case .welcome:
@@ -49,14 +49,14 @@ extension APIService: TargetType, ServiceType {
             return .requestParameters(parameters: ["platform" : "IOS","version" : "1", "locale" : "en"], encoding: URLEncoding.queryString)
         }
     }
-    
+
     var sampleData: Data {
         switch self {
         case .welcome:
             return "{\"title\": \"Welcome to iOS Test\", \"description\": \" iOS Test for Xapo bank  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.\", \"navigationText\": \"Go to Xapo\", \"termsAndPolicy\": \"Privacy policy and Terms of use\"}".utf8Encoded
         }
     }
-        
+
     var headers: [String: String]? {
         switch self {
         case .welcome:

@@ -11,17 +11,16 @@ enum NetworkEnvironment {
     case production
     case nspUAT
     case preProd
-    
-    //TODO: check with flags
+
+    // TODO: check with flags
     static let `default`: NetworkEnvironment = .nspUAT
 
-    
     private static var currentCached: NetworkEnvironment?
-    
+
     static var current: NetworkEnvironment {
         .default
     }
-    
+
     static func updateIfNeeded() {
         currentCached = nil
     }
@@ -29,7 +28,7 @@ enum NetworkEnvironment {
 
 extension NetworkEnvironment {
     var apiBaseUrl: String {
-        switch self{
+        switch self {
         case .production: return "https://xapo.com"
         case .nspUAT: return "https://xapo.com.xp"
         case .preProd: return "https://xapo.com.xp"
@@ -37,7 +36,7 @@ extension NetworkEnvironment {
     }
 }
 
-enum MyNetworkErrors: Error{
+enum MyNetworkErrors: Error {
     case noData
     case invalidUrl(String)
 }

@@ -42,11 +42,11 @@ class WelcomeViewModelSpec: QuickSpec {
                 mockNetworkManager.shouldSucceed = false
                 dataManager.fetchData(.welcome, type: WelcomeModel.self, completion:{ result in
                     switch result{
-                    case .success(let welcomeModel):
+                    case .success( _):
                         break
-                    case .failure: break
+                    case .failure(let failure):
+                        expect(failure).toNot(beNil())
                     }
-                    expect(result).toNot(beNil())
                 })
             }
         }

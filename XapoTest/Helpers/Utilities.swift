@@ -8,12 +8,12 @@
 import Foundation
 import UIKit
 
-//MARK: - Appdelegate singleton
+// MARK: - Appdelegate singleton
 weak var APPDELEGATE: AppDelegate? {
     return UIApplication.shared.delegate as? AppDelegate
 }
 
-//MARK: - UIViewController extensions
+// MARK: - UIViewController extensions
 extension UIViewController {
    func addChild(childVC: UIViewController, _ view: UIView) {
       self.addChild(childVC)
@@ -23,7 +23,7 @@ extension UIViewController {
    }
 }
 
-//MARK: - String extensions
+// MARK: - String extensions
 extension String {
     var urlEscaped: String {
         return addingPercentEncoding(withAllowedCharacters: .urlHostAllowed)!
@@ -31,5 +31,22 @@ extension String {
 
     var utf8Encoded: Data {
         return data(using: .utf8)!
+    }
+}
+
+extension UINavigationController {
+    func setNavigationBarTransparent() {
+        // Make the navigation bar background clear
+        navigationBar.setBackgroundImage(UIImage(), for: .default)
+        navigationBar.shadowImage = UIImage()
+        navigationBar.isTranslucent = true
+        navigationItem.leftItemsSupplementBackButton = true
+        navigationBar.topItem?.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: self, action: nil)
+    }
+
+    func setNavigationBarDefault() {
+        // Restore the navigation bar to default
+        navigationController?.navigationBar.setBackgroundImage(nil, for: .default)
+        navigationController?.navigationBar.shadowImage = nil
     }
 }

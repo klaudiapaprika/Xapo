@@ -27,7 +27,7 @@ class LoginCoordinator: NavigationCoordinator<LoginRoute> {
         self.container = container
         super.init(initialRoute: .welcome)
     }
-    
+
     // MARK: Overrides
     override func prepareTransition(for route: LoginRoute) -> NavigationTransition {
         setUpRouterDependency(route)
@@ -36,17 +36,17 @@ class LoginCoordinator: NavigationCoordinator<LoginRoute> {
             let viewController = WelcomeViewController.instantiate()
             let viewModel = WelcomeViewModel(router: unownedRouter)
             viewModel.model =  WelcomeModel(title: Localized.welcomeTitle, description: Localized.welcomeDescription, navigationText: Localized.goToXapo, termsAndPolicy: Localized.termsAndPolicy)
-            viewController.navigationController?.isNavigationBarHidden = true
             viewController.bind(to: viewModel)
+            // viewController.navigationController?.setNavigationBarTransparent()
             return .push(viewController)
         }
     }
-    
+
     func setUpRouterDependency(_ route: LoginRoute) {
         container.register(LoginRoute.self, factory: {_ in
             route
         })
-        
+
         container.register(UnownedRouter<LoginRoute>.self) { _ in
             self.unownedRouter
         }
